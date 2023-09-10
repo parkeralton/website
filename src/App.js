@@ -1,11 +1,12 @@
 import logo from './logo.svg';
+import face from './face.png'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={face} className="App-logo" alt="logo" />
         <p>
           Parker Alton's website is coming soon.
         </p>
