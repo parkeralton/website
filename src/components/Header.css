@@ -1,0 +1,27 @@
+/* Header.css */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: minmax(20px, 1fr) minmax(320px, 800px) minmax(20px, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: ". content .";
+    position: sticky;
+    top: 0;
+}
+
+.placeholder {
+    /* You can customize the style of the placeholder columns if needed */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
