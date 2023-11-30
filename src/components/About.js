@@ -18,13 +18,7 @@ const About = () => {
                 </Col>
                 <Col md={{ span: 8, order: 2 }} className="text-lg-start">
                     <h5>
-                        Hi! I'm Parker, an adaptable software engineer with a robust foundation in Java Development,
-                        and an Oracle Certified Associate in Java SE 8. My expertise extends to the dynamic
-                        world of iOS development and SwiftUI, where I've collaborated closely with stakeholders to
-                        shape app requirements and user experiences. As a rapid learner, I embrace challenges to
-                        swiftly acquire new skills. My passion lies in crafting efficient and scalable solutions,
-                        with a keen eye for detail. Beyond my technical capabilities, I bring creativity and innovation
-                        to every project, ensuring a comprehensive understanding of goals and delivering cutting-edge solutions.
+                        Hi! I'm Parker, a versatile software engineer with a strong foundation in Java Development. Recently, I've been using my expertise in dynamic iOS development and SwiftUI to create solutions at Medtronic. My passion for creativity, innovation, and acquiring new skill sets ensures a comprehensive understanding of project goals, delivering cutting-edge solutions.
                     </h5>
                 </Col>
             </Row>

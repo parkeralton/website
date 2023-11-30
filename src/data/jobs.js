@@ -10,7 +10,7 @@ const jobs = [
             'in ensuring a current and efficient codebase adhering to industry best practices. I have demonstrated ' +
             'excellence in integrating health-related functionalities using the HealthKit framework, enhancing ' +
             'user experiences seamlessly.',
-        duration: 'August 2023 - Present',
+        duration: '2023 - Present',
         logo: "/medtronic-logo.png",
         projects: [
             {
@@ -36,7 +36,7 @@ const jobs = [
         projects: [
             {
                 title: "Backstage.io",
-                dates: "April 2022 - August 2023",
+                dates: "2022 - 2023",
                 location: "Minnesota",
                 description: "Led the automation of Backstage.io implementation using Java Spring Boot. This initiative resulted in improved efficiency, faster time-to-market for new features, and streamlined development processes.",
                 image: "/backstage.png"
@@ -53,7 +53,7 @@ const jobs = [
             'financial responsibilities, I actively contributed to the success of each project by creating and ' +
             'updating CPM schedules, mentoring interns, managing employees, and preparing bid proposals for ' +
             'diverse projects.',
-        duration: 'June 2016 - March 2022',
+        duration: '2016 - 2022',
         logo: "/meyer-logo.svg",
         projects: [
             {
@@ -133,7 +133,7 @@ const jobs = [
             'My tenure as a field engineer at Schlumberger was marked by overseeing oil well cementing operations ' +
             'while ensuring complete customer satisfaction. I maintained a strong commitment to safety and procedural ' +
             'protocol, implementing management of change when necessary.',
-        duration: 'July 2014 - October 2015',
+        duration: '2014 - 2015',
         logo: "/SLB_Logo_2022.svg",
         projects: [
             {
