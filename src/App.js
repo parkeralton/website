@@ -1,26 +1,19 @@
-import logo from './logo.svg';
-import face from './face.png'
-import './App.css';
+// App.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './components/Home';
+import JobDetails from './components/JobDetails';
+import './App.css'; // Import global styles
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={face} className="App-logo" alt="logo" />
-        <p>
-          Parker Alton's website is coming soon.
-        </p>
-        {/*<a*/}
-        {/*  className="App-link"*/}
-        {/*  href="https://reactjs.org"*/}
-        {/*  target="_blank"*/}
-        {/*  rel="noopener noreferrer"*/}
-        {/*>*/}
-        {/*  Learn React*/}
-        {/*</a>*/}
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <Router>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/jobs/:company" element={<JobDetails />} />
+            </Routes>
+        </Router>
+    );
+};
 
 export default App;
