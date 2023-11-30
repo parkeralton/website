@@ -16,7 +16,7 @@ const jobs = [
             {
                 title: "Medtronic iOS Application",
                 location: "Minnesota",
-                dates: "August 2023 - Present",
+                dates: "2023 - Present",
                 description: "Developed a native iOS application for monitoring patient health post-procedure. Patients can track vitals, learn about their conditions, schedule appointments, and take health surveys. Utilized FHIR data and SwiftUI for seamless integration",
                 image: "/medtronic-logo.png"
             }
@@ -31,7 +31,7 @@ const jobs = [
             'time-to-market for new features. Integrating GitHub workflows with Spring Boot microservices, I enabled tracking ' +
             'changes in real-time and enhanced collaboration. My role also involved effective communication of project ' +
             'progress using Scrum and agile processes, aligning seamlessly with organizational goals.',
-        duration: 'April 2022 - August 2023',
+        duration: '2022 - 2023',
         logo: "/optum-logo.svg",
         projects: [
             {
