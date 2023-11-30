@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import JobDetails from './components/JobDetails';
 import './App.css';
-import ScrollToTop from "./components/ScrollToTop"; // Import global styles
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
     return (

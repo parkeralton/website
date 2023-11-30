@@ -11,10 +11,6 @@
     top: 0;
 }
 
-.placeholder {
-    /* You can customize the style of the placeholder columns if needed */
-}
-
 .content {
     display: flex;
     align-items: center;

@@ -16,7 +16,7 @@ const JobList = () => {
                                     src={job.logo}
                                     alt={`${job.company} Logo`}
                                     className="img-fluid logo mr-4 p-5"
-                                    style={{ width: '15rem' }} // Set the desired width
+                                    style={{ width: '15rem' }}
                                 />
                             )}
                             <div>
