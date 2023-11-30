@@ -10,7 +10,7 @@ const JobList = () => {
             {jobs.map((job, index) => (
                 <Row key={index} className="mb-5">
                     <Col>
-                        <div className="d-flex align-items-center">
+                        <div className="d-md-flex align-items-center">
                             {job.logo && (
                                 <img
                                     src={job.logo}
