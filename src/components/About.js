@@ -7,12 +7,13 @@ const About = () => {
     const linkedIn = 'https://www.linkedin.com/in/parkeralton'
     return (
         <Container className="my-5 pt-5 text-center">
-            <Row>
-                <Col md={{ span: 4, order: 1 }} className="mb-4 mb-md-0">
+            <Row className="d-flex align-items-center justify-content-center">
+                <Col md={{ span: 4, order: 1 }} className="mb-4 mb-md-0" style={{ position: 'relative', overflow: 'hidden', aspectRatio: '1/1' }}>
                     <img
-                        src="/profile-pic.png"
+                        src="/newPhoto.png"
                         alt="Parker Alton"
                         className="img-fluid rounded-circle"
+                        style={{ objectFit: 'cover', width: '100%', height: '100%' }}
                     />
                 </Col>
                 <Col md={{ span: 8, order: 2 }} className="text-lg-start">
